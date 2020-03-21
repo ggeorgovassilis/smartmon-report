@@ -18,6 +18,6 @@ which plots the "Temperature_Celsius" attribute of the sdf hard disk.
 - /tmp is what it usually is
 - Ubuntu 18.04
 
-# Knows bugs
+# Known bugs
 Logs don't contain the year, so each log entry is assumed to belong to the current year. This will be in most cases _not_ correct
 as log archives in `/var/log/syslog*` usually date several months past.
